@@ -1,0 +1,48 @@
+.navbar{
+    padding: 1.8rem 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.navbar-brand{
+    width: 90px;
+}
+.brand-and-toggler{
+    width: 100%;
+}
+input{
+    border: 1px solid black !important;
+    padding: 10px !important;
+ 
+}
+.custom-button {
+    background-color: #bf5ce0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: white;
+  }
+  .img-fluid {
+    width: 100%;
+    height: 100vh;
+  }
+  @media screen and (max-width: 800px){
+    .img-fluid {
+        width: 100%;
+        height: 40vh;
+      }
+      .container{
+        width: 75% !important;
+      }
+      .s1{
+        font-size: 20px;
+    }
+    .logo-img{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .l1{
+        justify-content: end;
+    }
+  }
